@@ -1,0 +1,229 @@
+﻿#MainContent {
+    padding-right: 5px;
+}
+.question .questionheader .questionheaderleft {
+    float: left;
+}
+
+    .question .questionheader .questionheaderleft .title {
+        font-weight: bold;
+    }
+
+.questionheaderleft ul {
+    margin: 8px 0;
+}
+
+    .questionheaderleft ul li {
+        background: url("../../../Images/iconright.png") no-repeat scroll left 5px transparent;
+        margin-left: 5px;
+        padding-left: 10px;
+    }
+
+.morecontent span {
+    display: none;
+}
+
+a.moretxt {
+    color: #337ab7;
+    font-size: 14px;
+}
+
+    a.moretxt:hover {
+        color: #C20000;
+        font-size: 14px text-decoration: underline;
+    }
+
+.q-title {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.q-post-by {
+    padding: 8px 0;
+    font-style: italic;
+    color: #888888;
+}
+
+.q-item-count {
+    display: block;
+    width: 50px;
+    background: red;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 0;
+    font-family: Arial;
+}
+
+    .q-item-count p {
+        font-size: 13px;
+    }
+
+.q-content {
+    font-size: 16px;
+    font-family: arial;
+    text-align: justify;
+}
+
+.bucket_container {
+    background: rgba(0, 0, 0, 0) url("../../../Images/bg_bucket_alt.png") repeat-x scroll 0 -92px;
+    min-height: 1px;
+    position: relative;
+}
+.bucket_content {
+    border-left: 2px solid #9fbde5;
+    border-right: 2px solid #9fbde5;
+    min-height: 1px;
+    padding: 0 10px;
+    position: relative;
+}
+.question {
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+    .question .questionheader {
+        display: block;
+    }
+
+        .question .questionheader .questionheaderleft {
+            float: left;
+        }
+
+            .question .questionheader .questionheaderleft .title {
+                font-weight: bold;
+            }
+
+        .question .questionheader .questionheaderright {
+            float: right;
+        }
+
+            .question .questionheader .questionheaderright img {
+                border: medium none;
+            }
+
+    .question .questionlist {
+        clear: both;
+    }
+
+        .question .questionlist table {
+            border-collapse: collapse;
+            color: #000000;
+            width: 100%;
+        }
+
+        .question .questionlist tr {
+            line-height: 20px;
+        }
+
+        .question .questionlist th {
+            border: 2px solid #cfd7e9;
+        }
+
+        .question .questionlist td {
+            border: 2px solid #cfd7e9;
+        }
+
+.questionheader {
+    margin-left: 10px;
+}
+
+.questionheaderleft ul {
+    margin-left: 30px;
+}
+
+    .questionheaderleft ul li {
+        background: transparent url("../../../Images/iconright.png") no-repeat scroll left 5px;
+        margin-left: 5px;
+        padding-left: 10px;
+    }
+
+.question .questionlist td#STT, .question .questionlist td#Date {
+    text-align: center;
+}
+
+.question .questionlist a.answerlink {
+    color: #0000cc;
+    cursor: pointer;
+}
+
+.question .questionlist td span {
+    color: #777788;
+}
+
+.answerquestion {
+    
+    width: 100%;
+}
+
+    .answerquestion fieldset {
+        border: 1px solid #a8b9d5;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .answerquestion legend {
+    }
+
+    .answerquestion .header {
+        border-bottom: 1px solid #cfcfcf;
+        color: #49720b;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+
+    .answerquestion .title {
+        font-weight: bold;
+    }
+
+    .answerquestion .content {
+        color: #49720b;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .answerquestion .blockquestion {
+        padding: 10px;
+    }
+
+    .answerquestion .blockanswer {
+        padding: 10px;
+    }
+
+    .answerquestion li {
+        list-style: outside none none;
+    }
+
+    .answerquestion ul {
+        list-style-position: outside;
+        margin: 0;
+        padding: 5px 0 5px 5px;
+    }
+
+    .answerquestion .blockotherquestion {
+        padding: 10px;
+    }
+
+        .answerquestion .blockotherquestion a {
+            background-image: url("../images/newslink.html");
+            background-position: 6px 5px;
+            background-repeat: no-repeat;
+            color: #003399;
+            cursor: pointer;
+            padding: 0 0 0 15px;
+            text-decoration: none;
+        }
+
+            .answerquestion .blockotherquestion a:hover {
+                color: #fb0415;
+                text-decoration: underline;
+            }
+.bucket_bottom {
+    background: rgba(0, 0, 0, 0) url("../../../Images/bg_bucket.png") no-repeat scroll 0 -22px;
+    height: 10px;
+    margin-bottom: 4px;
+}
